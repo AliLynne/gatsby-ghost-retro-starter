@@ -1,12 +1,60 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's hello-world starter
-</h1>
+## 🚀 Quick start
+
+1.  **Create a Gatsby site.**
+
+```bash
+# With Gatsby CLI
+gatsby new my-retro-gatsby-starter https://github.com/TryGhost/gatsby-starter-ghost.git
+```
+
+```bash
+# From Source
+git clone https://github.com/TryGhost/gatsby-starter-ghost.git
+cd gatsby-starter-ghost
+```
+
+Then install dependencies
+
+```bash
+npm install
+```
+
+or
+
+```bash
+yarn
+```
+
+2.  **Add Your Ghost Credentials**
+
+Will need to figure out exactly where they'll put their credentials, want to make it as simple as possible.
+
+Start the development server. You now have a Gatsby site pulling content from headless Ghost.
+
+```bash
+gatsby develop
+```
+
+This starter consists of:
+
+1. Main Page (Index)
+
+- Loads all posts from Ghost and uses pagination to navigate through them. Should be able to adjust number of posts per page in a site config file.
+
+2. Author Page for all Ghost authors
+3. A page template for all Ghost pages
+4. A post template for all Ghost posts
+
+- Get data from Ghost
+   <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+   <p align="center">
+     <a href="https://www.gatsbyjs.org">
+       <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+     </a>
+   </p>
+   <h1 align="center">
+     Gatsby's hello-world starter
+   </h1>
 
 Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
